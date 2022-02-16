@@ -1,0 +1,24 @@
+{
+  "name": "curso_nodejs_baltaio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/server.js",
+    "dev": "nodemon ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "mongoose": "^5.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
